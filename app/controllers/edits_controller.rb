@@ -1,0 +1,2 @@
+class EditsController < ApplicationController
+end
