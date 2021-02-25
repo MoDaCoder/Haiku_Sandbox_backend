@@ -24,6 +24,4 @@ class HaikusController < ApplicationController
     def haiku_params
         params.require(:haiku).permit(:title, :haiku, :genre)
     end
-
-
 end
