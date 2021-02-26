@@ -1,6 +1,8 @@
 class EditsController < ApplicationController
     def index
+        edit = Edit.all 
         render json: EditSerializer.new(Edit.all)
+        # render json: EditSerializer.new(edit).serialized_json
     end
 
     def create

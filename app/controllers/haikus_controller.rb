@@ -1,6 +1,8 @@
 class HaikusController < ApplicationController
     def index
+        haiku = Haiku.all
         render json: HaikuSerializer.new(Haiku.all)
+        # haiku_json = HaikuSerializer.new(@haiku).serialized_json
     end
 
     def create
