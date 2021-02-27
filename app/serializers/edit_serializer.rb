@@ -3,3 +3,4 @@ class EditSerializer
     attributes :edit
 
 end
+
