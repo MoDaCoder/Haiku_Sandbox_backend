@@ -1,13 +1,12 @@
 class EditsController < ApplicationController
     def index
-        edit = Edit.all 
-        render json: EditSerializer.new(Edit.all)
-        # render json: EditSerializer.new(edit).serialized_json
+        render json: Edit.all
     end
 
     def create
         edit = Edit.create(edit_params)
-        render json: EditSerializer.new(edit)
+            edit.save
+            render json: edit
     end
 
     # def update
