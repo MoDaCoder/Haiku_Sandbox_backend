@@ -1,4 +1,4 @@
 class HaikuSerializer
     include FastJsonapi::ObjectSerializer
-    attributes :title, :haiku, :genre, :edits
+    attributes :title, :haiku, :genre
 end
