@@ -5,20 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* This is the Rails API back end to run the database for React Haiku Sandbox.
 
-* System dependencies
+* Ruby version: ruby '2.6.1'
 
-* Configuration
+* System dependencies: Run 'bundle install' in terminal
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions: Run 'rails s' in terminal
